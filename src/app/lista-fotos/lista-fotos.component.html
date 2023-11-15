@@ -1,0 +1,17 @@
+<div class="list-container">
+    <div class="foto-container" *ngFor="let foto of fotos">
+        <h1>{{foto.titulo}}</h1>
+        <h3>{{foto.fecha | date: "MMMM dd, yyyy 'at' HH:MM"}}</h3>
+        <img [src]="foto.imagen" alt="Imagen de internet">
+        <p>{{foto.descripcion}}</p>
+
+        <p>
+        <strong>{{foto.precio | currency: "€"}}</strong>
+        </p>
+
+        <button (click)="cambiarfoto(foto)">  Cambiar foto</button>
+    
+        <p>{{foto | json}}</p>
+    
+    </div>
+   </div>
