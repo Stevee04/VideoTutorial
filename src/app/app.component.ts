@@ -8,3 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'VideoTutorial';
 }
+
+// listas: ListaFotos[]=[
+//   {titulo: "Lista1", categoria "terror"},
+//   {titulo: "Lista1", categoria "ciencia"},
+//   {titulo: "Lista1", categoria "comedia"},
+// ];

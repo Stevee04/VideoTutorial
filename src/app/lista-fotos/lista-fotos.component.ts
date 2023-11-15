@@ -22,4 +22,8 @@ export class ListaFotosComponent {
     foto.imagen = "https://picsum.photos/600/600"
   }
 
+  ocultarfoto(foto: Foto){
+    console.log("Clikado")
+  }
+
 }
